@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.all-content{
+    background-color: rgba(149, 157, 165, 0.082);
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    width: 300px;
+    height: 350px;
+    margin-left: 25px;
+    border-radius: 5px 5px 5px 60px;
+}
+.welcome{
+    display: inline;
+    background-color: chocolate;
+    padding: 8px 14px;
+    border-radius: 5px 1px 5px 1px;
+    font-size: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 3px;
+    color: rgb(70, 70, 70);
+    font-size: xx-large;
+    margin: 0;
+    margin-top: 15px; 
+}
+.post{
+    display: inline;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 10px;
+    margin-top: 8px;
+    color: gray;
+    font-weight: 600;
+}
+.para{
+    color: gray;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    word-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    background-color: chocolate;
+    padding: 5px 15px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section-2-image{
+    width: 300px;
+    height: 350px;
+    margin-right: 30px;
+    border-radius: 2px 60px 2px 2px;
+}
+.about{
+    display: inline;
+    background-color: #E41B4B;
+    padding: 8px 14px;
+    border-radius: 5px 1px 5px 1px;
+    font-size: 11px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.why{
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+.section-2-para{
+    text-align: justify;
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.cv{
+    text-decoration: none;
+    background-color: #E41B4B;
+    padding: 5px 15px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2px;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sec-a{
+    margin: 0;
+    margin-top: 25px;
+}
